@@ -35,14 +35,14 @@ assistant = client.beta.assistants.create(
 # #Here we are uploading the files to openAI
 
 #Here we are making the path
-folder_path = r'E:\projects\Research'
-file_name = 'Action-Meta-action-list.pdf'
-FileName = os.path.join(folder_path, file_name)
+folderPath = r'E:\projects\Research'
+fileName = 'Action-Meta-action-list.pdf'
+FileName = os.path.join(folderPath, fileName)
 
 
 
 # Upload the user provided file to OpenAI
-message_file = client.files.create(
+messageFile = client.files.create(
   file=open(FileName, "rb"), purpose="assistants"
 )
 if __name__ ==  "__main__":
@@ -67,16 +67,11 @@ if __name__ ==  "__main__":
                     },
                     {
                         "type": "text",
-                        # Here is the data we are giving it
-                        "text": SNIPPET_OF_DATA
-                    },
-                    {
-                        "type": "text",
                         "text": 'The possible actions and meta actions which you are to pick from are given in the microsoft excell file titled "Action-Meta-action-list". '
                     }
                 ],
                 "attachments": [
-                    { "file_id": message_file.id, "tools": [{"type": "file_search"}] }
+                    { "file_id": messageFile.id, "tools": [{"type": "file_search"}] }
                 ]
             }
         ]

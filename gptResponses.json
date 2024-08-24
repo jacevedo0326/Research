@@ -1,0 +1,20 @@
+{
+    "5432.json": {
+        "Meta-Action": "Catch Profile P040",
+        "Action": "Catch Fixation FIXA1",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "8541.json": {
+        "Meta-Action": "Catch Profile P040",
+        "Action": "Catch Fixation FIXA1",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Strap clamps BRIT (x2)"
+    },
+    "12460.json": {
+        "Meta-Action": "Catch Profile P040",
+        "Action": "Catch Fixation FIXA1",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    }
+}
