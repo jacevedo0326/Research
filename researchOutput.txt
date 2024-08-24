@@ -1,0 +1,41 @@
+File number: 1
+Processing file: E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01\12539.json 
+Meta-Action: Catch Profile  
+Action: Picking in front 
+The correct current action should be: Consult sheets 
+The correct current meta action should be: Consult sheets 
+The correct next action should be: Turn sheets 
+The correct next meta action should be: Turn sheets
+File number: 2
+Processing file: E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01\10736.json 
+Meta-Action: Catch Profile (P040)  
+Action: Catch Fixation (FIXA1) 
+The correct current action should be: Place P040 on P360-2 
+The correct current meta action should be: Assemble system 
+The correct next action should be: Catch Bolt B820PT 
+The correct next meta action should be: Picking left
+File number: 3
+Processing file: E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01\5858.json 
+Meta-Action: Catch Profile (P040)  
+Action: Catch Bolt B820  
+ 
+The correct current action should be: Screw PAL4019 with B820 (x2) 
+The correct current meta action should be: Assemble system 
+The correct next action should be: Put down screwdriver 
+The correct next meta action should be: Put down screwdriver
+File number: 4
+Processing file: E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01\7913.json 
+Meta-Action: Catch (Picking in front)  
+Action: Take measuring rod 
+The correct current action should be: Place FIXL on P360-2 
+The correct current meta action should be: Assemble system 
+The correct next action should be: Take screwdriver 
+The correct next meta action should be: Take screwdriver
+File number: 5
+Processing file: E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01\2300.json 
+Meta-Action: Catch (Profile P040)  
+Action: Catch (Fixation FIXA1) 
+The correct current action should be: Place FIXA1 on LARD at 160mm 
+The correct current meta action should be: Assemble system 
+The correct next action should be: Take screwdriver 
+The correct next meta action should be: Take screwdriver

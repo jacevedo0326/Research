@@ -1,0 +1,22 @@
+{
+    "12539.json": {
+        "Meta-Action": "Catch Profile",
+        "Action": "Picking in front"
+    },
+    "10736.json": {
+        "Meta-Action": "Catch Profile (P040)",
+        "Action": "Catch Fixation (FIXA1)"
+    },
+    "5858.json": {
+        "Meta-Action": "Catch Profile (P040)",
+        "Action": "Catch Bolt B820"
+    },
+    "7913.json": {
+        "Meta-Action": "Catch (Picking in front)",
+        "Action": "Take measuring rod"
+    },
+    "2300.json": {
+        "Meta-Action": "Catch (Profile P040)",
+        "Action": "Catch (Fixation FIXA1)"
+    }
+}
