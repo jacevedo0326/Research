@@ -8,6 +8,24 @@ from openAIKey import API_KEY
 # Initialize the OpenAI client with your API key
 client = OpenAI(api_key=API_KEY)
 
+file_id_path = "file_id.txt"
+if os.path.exists(file_id_path):
+    with open(file_id_path, "r") as f:
+        file_id = f.read().strip()
+else:
+    # Upload the user-provided file to OpenAI once
+    folderPath = r'E:\projects\Research'
+    fileName = 'Action-Meta-action-list.xlsx'
+    FileName = os.path.join(folderPath, fileName)
+
+    messageFile = client.files.create(
+        file=open(FileName, "rb"), purpose="assistants"
+    )
+    
+    # Save the file ID for future use
+    file_id = messageFile.id
+    with open(file_id_path, "w") as f:
+        f.write(file_id)
 
 # Create the assistant (include file reader tool)
 assistant = client.beta.assistants.create(
@@ -23,7 +41,7 @@ assistant = client.beta.assistants.create(
     """,
     # temperature = 1,
     tools = [{"type": "file_search"}],
-    model = "gpt-3.5-turbo",
+    model = "gpt-4o-mini",
     response_format = "auto",
     temperature = 0.4,
     # metadata = {

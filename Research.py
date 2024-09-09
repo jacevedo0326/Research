@@ -148,15 +148,14 @@ if __name__ == "__main__":
     gptResponsesJsonPath = r'E:\projects\Research\gptResponses.json'  # New JSON file for GPT responses
 
     # Clear both files at the start of the run
-    with open(outputFilePath, 'w', encoding='utf-8') as f:
-        pass
-    with open(gptResponsesJsonPath, 'w', encoding='utf-8') as f:
-        json.dump({}, f)
+    # with open(outputFilePath, 'w', encoding='utf-8') as f:
+    #     pass
+    #with open(gptResponsesJsonPath, 'w', encoding='utf-8') as f:
+    #    json.dump({}, f)
 
     folderPath = r'E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01'
-    filesInFolder = [fileName for fileName in os.listdir(folderPath) if fileName.endswith(".json")]
-    random.shuffle(filesInFolder)
-    selectedFiles = filesInFolder[:numberOfRuns]
+    filesInFolder = [fileName for fileName in os.listdir(folderPath) if fileName.endswith(".json") and fileName not in json.load(open(gptResponsesJsonPath, 'r'))]
+    selectedFiles = filesInFolder
 
     print("Selected files for processing:")
     for idx, file in enumerate(selectedFiles):
@@ -200,12 +199,12 @@ if __name__ == "__main__":
                                 },
                                 {
                                     "type": "text",
-                                    "text": "Do not output any inforation about the following threads. The reader doesn't need to know about the microsoft excell file"
+                                    # Here is the data we are giving it
+                                    "text": fileResult
                                 },
                                 {
                                     "type": "text",
-                                    # Here is the data we are giving it
-                                    "text": fileResult
+                                    "text": "Do not output any inforation about the following threads. The reader doesn't need to know about the microsoft excell file"
                                 },
                                 {
                                     "type": "text",
