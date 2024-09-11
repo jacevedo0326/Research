@@ -5,6 +5,7 @@ import random
 from openAiAssistant import assistant, messageFile, client
 import time
 import re
+import sys
 
 # Any global variables we have to initialize and use for later
 listOfBodyParts3D = ['hips', 'RightUpLeg', 'RightLeg', 'RightFoot', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 
@@ -37,19 +38,19 @@ def getDataFromJsonFiles(folderPath, fileName):
         # Access the values directly using the keys
         currentAction = json_data.get("current_task_str", "Key not found")
         if currentAction != "Key not found":
-            print(f"The current action is: {currentAction}")
+            print(f"The current action found")
 
         currentMetaAction = json_data.get("current_task_meta_str", "Key not found")
         if currentMetaAction != "Key not found":
-            print(f"The current meta action is: {currentMetaAction}")
+            print(f"The current meta action found")
 
         nextAction = json_data.get("next_task_str", "Key not found")
         if nextAction != "Key not found":
-            print(f"The next action is: {nextAction}")
+            print(f"The next action is found")
 
         nextMetaAction = json_data.get("next_task_meta_str", "Key not found")
         if nextMetaAction != "Key not found":
-            print(f"The next meta action is: {nextMetaAction}")
+            print(f"The next meta action found")
 
         for key, extractedData in json_data.items():
             if "token" in key or "embed" in key:  # Skip if key contains 'token' or 'embed'
@@ -139,118 +140,104 @@ def processGptResponse(fileName, gptResponse, outputJsonPath):
     with open(outputJsonPath, 'w') as f:
         json.dump(gptResponseDict, f, indent=4)
 
-    print(f"Processed and saved response for file: {fileName}")
-    print(f"Meta-Action: {fileDict['Meta-Action']}")
-    print(f"Action: {fileDict['Action']}")
-
 if __name__ == "__main__":
-    outputFilePath = r'E:\projects\Research\researchOutput.txt'  # Specify the full path to the output file
-    gptResponsesJsonPath = r'E:\projects\Research\gptResponses.json'  # New JSON file for GPT responses
+    outputFilePath = r'E:\projects\Research\researchOutputP02_R01.txt'
+    gptResponsesJsonPath = r'E:\projects\Research\gptResponsesP02_R01.json'
 
-    # Clear both files at the start of the run
-    # with open(outputFilePath, 'w', encoding='utf-8') as f:
-    #     pass
-    #with open(gptResponsesJsonPath, 'w', encoding='utf-8') as f:
-    #    json.dump({}, f)
+    if not os.path.exists(gptResponsesJsonPath):
+        with open(gptResponsesJsonPath, 'w') as f:
+            json.dump({}, f)
 
-    folderPath = r'E:\\Prepared_Data\\Prepared_Data\\training\\P01_R01'
-    filesInFolder = [fileName for fileName in os.listdir(folderPath) if fileName.endswith(".json") and fileName not in json.load(open(gptResponsesJsonPath, 'r'))]
+    folderPath = r'E:\Prepared_Data\P02_R01'
+    
+    try:
+        with open(gptResponsesJsonPath, 'r') as f:
+            existing_responses = json.load(f)
+    except json.JSONDecodeError:
+        existing_responses = {}
+
+    filesInFolder = [fileName for fileName in os.listdir(folderPath) if fileName.endswith(".json") and fileName not in existing_responses]
     selectedFiles = filesInFolder
 
-    print("Selected files for processing:")
-    for idx, file in enumerate(selectedFiles):
-        print(f"{idx + 1}. {file}")
+    failed_count = 0
+    max_failed_count = 10
+    file_count = 0
+    total_files = len(selectedFiles)
 
-    with open(outputFilePath, 'a', encoding='utf-8') as f:  # Open file in append mode for the loop
-        for fileName in tqdm.tqdm(selectedFiles):
-            try:
-                wholeFileName = os.path.join(folderPath, fileName)
-                print(f"\nStarting to process file: {wholeFileName}")
+    for fileName in tqdm.tqdm(selectedFiles):
+        try:
+            file_count += 1
+            wholeFileName = os.path.join(folderPath, fileName)
+            print(f"\nProcessing file {file_count}/{total_files}: {wholeFileName}")
 
-                if not os.path.exists(wholeFileName):
-                    print(f"File does not exist: {wholeFileName}")
-                    continue
+            if not os.path.exists(wholeFileName):
+                print(f"File does not exist: {wholeFileName}")
+                continue
 
-                fileResult = getDataFromJsonFiles(folderPath, wholeFileName)
-                if fileResult is None:
-                    continue
+            fileResult = getDataFromJsonFiles(folderPath, wholeFileName)
+            if fileResult is None:
+                continue
 
-                print(f"Processing file: {wholeFileName}")
-                print(fileResult)
-                print('-----------------Block ends here ------------------------')
+            print("\n" + "="*50)
+            print("Extracted Data:")
+            print("-"*50)
+            print(fileResult)
+            print("-"*50)
 
-                print(f"Creating thread for file: {fileName}")
-                thread = client.beta.threads.create(
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": [
-                                {
-                                    "type": "text",
-                                    "text": "Here are the positions of the main joints and body parts of a person from a 3D and 2D perspective. They are labeled accordingly."
-                                },
-                                {
-                                    "type": "text",
-                                    "text": '''
-                                    The format should be exactly as follows. Don't incllude (New line) but do have a line in between meta-action and Action
-                                    Meta-Action: "give the predicted next meta-action". (New line) 
-                                    Action: "give the predicted next action here". 
-                                    '''
-                                },
-                                {
-                                    "type": "text",
-                                    # Here is the data we are giving it
-                                    "text": fileResult
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Do not output any inforation about the following threads. The reader doesn't need to know about the microsoft excell file"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": '''
-                                    The possible actions and meta actions which you are to pick from are given in the microsoft excell file titled "Action-Meta-action-list". 
-                                    Do not tell ther reader about this. You also do not have to include the number in the most lefthand column. 
-                                    For example, if you pick taking components, it should be taking components, not taking components9.
-                                    The action also shouldn't include any numbers. Also don't reference your sources.
-                                    '''
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Please do not explain yourself. The only output you should give is the meta-action and action as stated above"
-                                },
-                            ],
-                            "attachments": [
-                                { "file_id": messageFile.id, "tools": [{"type": "file_search"}] }
-                            ]
-                        }
-                    ]
-                )
-                print(f"Thread created for file: {fileName}")
+            thread = client.beta.threads.create(
+                messages=[
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": "Here are the positions of the main joints and body parts of a person from a 3D and 2D perspective. They are labeled accordingly."},
+                            {"type": "text", "text": "The format should be exactly as follows. Don't include (New line) but do have a line in between meta-action and Action\nMeta-Action: \"give the predicted next meta-action\". (New line) \nAction: \"give the predicted next action here\". "},
+                            {"type": "text", "text": fileResult},
+                            {"type": "text", "text": "Do not output any information about the following threads. The reader doesn't need to know about the microsoft excel file"},
+                            {"type": "text", "text": "The possible actions and meta actions which you are to pick from are given in the microsoft excel file titled \"Action-Meta-action-list\". Do not tell the reader about this. You also do not have to include the number in the most lefthand column. For example, if you pick taking components, it should be taking components, not taking components9. The action also shouldn't include any numbers. Also don't reference your sources."},
+                            {"type": "text", "text": "Please do not explain yourself. The only output you should give is the meta-action and action as stated above"}
+                        ],
+                        "attachments": [{ "file_id": messageFile.id, "tools": [{"type": "file_search"}] }]
+                    }
+                ]
+            )
 
-                print(f"Starting run for file: {fileName}")
-                run = client.beta.threads.runs.create_and_poll(
-                    thread_id=thread.id,
-                    assistant_id=assistant.id
-                )
-                print('--------------------------------------New Run---------------------------------')
-                print(f" Run created: {run.id}")
+            print(f"Creating thread for file: {fileName}")
+            print(f"Thread created for file: {fileName}")
 
-                # This lets us know whether the run is being completed or not
-                while run.status != "completed":
-                    run = client.beta.threads.runs.retrieve(thread_id=thread.id, run_id=run.id)
-                    print(f" Run status: {run.status}")
-                    time.sleep(0.5)
+            print(f"Starting run for file: {fileName}")
+            run = client.beta.threads.runs.create_and_poll(
+                thread_id=thread.id,
+                assistant_id=assistant.id
+            )
+            print('--------------------------------------New Run---------------------------------')
+            print(f" Run created: {run.id}")
+
+            start_time = time.time()
+            while run.status != "completed":
+                run = client.beta.threads.runs.retrieve(thread_id=thread.id, run_id=run.id)
+                elapsed_time = time.time() - start_time
+                print(f" Run status: {run.status} (Elapsed time: {elapsed_time:.2f} seconds)")
+                time.sleep(0.5)
+                
+                if run.status == "failed":
+                    failed_count += 1
+                    if failed_count >= max_failed_count:
+                        print(f"Encountered {max_failed_count} consecutive failures. Restarting the script.")
+                        python = sys.executable
+                        os.execl(python, python, *sys.argv)
                 else:
-                    print("Run Completed!")
+                    failed_count = 0
+            else:
+                print("Run Completed!")
+                failed_count = 0  # Reset the counter when a run completes successfully
 
-                # Here we print a response back
-                messageResponse = client.beta.threads.messages.list(thread_id=thread.id)  # This accesses the thread
-                latest_assistant_message = None
-                for message in messageResponse.data:
-                    if message.role == 'assistant' and message.run_id == run.id:
-                        latest_assistant_message = message
-                        break
+            messageResponse = client.beta.threads.messages.list(thread_id=thread.id)
+            latest_assistant_message = next((message for message in messageResponse.data if message.role == 'assistant' and message.run_id == run.id), None)
+
+            if latest_assistant_message:
+                gptResponse = latest_assistant_message.content[0].text.value
+                processGptResponse(fileName, gptResponse, gptResponsesJsonPath)
+                
                 if run.usage:
                     inputTokenTemp = run.usage.prompt_tokens
                     outputTokenTemp = run.usage.completion_tokens
@@ -259,19 +246,50 @@ if __name__ == "__main__":
                     print(f"Input tokens: {inputTokenTemp}, Output tokens: {outputTokenTemp}")
                 else:
                     print("Token usage information not available for this run")
-                # Print the latest response
-                if latest_assistant_message:
-                    gptResponse = latest_assistant_message.content[0].text.value
-                    processGptResponse(fileName, gptResponse, gptResponsesJsonPath)
-                    
-                    print(gptResponse)
-                    print(f"File number: {count}\nProcessing file: {wholeFileName} \n{gptResponse} \nThe correct current meta action should be: {currentMetaAction} \nThe correct current action should be: {currentAction} \nThe correct next meta action should be: {nextMetaAction} \nThe correct next action should be: {nextAction}", file=f)
-                    print(f"")
-                else:
-                    print('No assistant message found for the run')
-                count += 1
-                print(f"Finished processing file: {wholeFileName}")
-            except Exception as e:
-                print(f"Error processing file {fileName}: {str(e)}")
-                continue
+                
+                print("\nChatGPT's response:")
+                print("-"*50)
+                print(gptResponse)
+                print("-"*50)
+                
+                # Write the assistant's response and correct actions/meta-actions to the file
+                with open(outputFilePath, 'a', encoding='utf-8') as output_file:
+                    output_file.write(f"\nFile number: {file_count}/{total_files}\n")
+                    output_file.write(f"File: {wholeFileName}\n")
+                    output_file.write("ChatGPT's response:\n")
+                    output_file.write("-"*50 + "\n")
+                    output_file.write(gptResponse + "\n")
+                    output_file.write("-"*50 + "\n")
+                    output_file.write("Correct Actions and Meta-Actions:\n")
+                    output_file.write("-"*50 + "\n")
+                    output_file.write(f"Correct current meta action: {currentMetaAction}\n")
+                    output_file.write(f"Correct current action: {currentAction}\n")
+                    output_file.write(f"Correct next meta action: {nextMetaAction}\n")
+                    output_file.write(f"Correct next action: {nextAction}\n")
+                    output_file.write("-"*50 + "\n\n")
+                
+                print("\nCorrect Actions and Meta-Actions:")
+                print("-"*50)
+                print(f"Correct current meta action: {currentMetaAction}")
+                print(f"Correct current action: {currentAction}")
+                print(f"Correct next meta action: {nextMetaAction}")
+                print(f"Correct next action: {nextAction}")
+                print("-"*50)
+            else:
+                print('No assistant message found for the run')
+                with open(outputFilePath, 'a', encoding='utf-8') as output_file:
+                    output_file.write(f"\nFile number: {file_count}/{total_files}\n")
+                    output_file.write(f"File: {wholeFileName}\n")
+                    output_file.write('No assistant message found for the run\n\n')
+
+            print(f"Finished processing file {file_count}/{total_files}: {wholeFileName}")
+
+        except Exception as e:
+            print(f"Error processing file {file_count}/{total_files} - {fileName}: {str(e)}")
+            with open(outputFilePath, 'a', encoding='utf-8') as output_file:
+                output_file.write(f"\nFile number: {file_count}/{total_files}\n")
+                output_file.write(f"Error processing file {fileName}: {str(e)}\n\n")
+            continue
+
     print(f"Total input tokens used: {totalInputToken} \nTotal output tokens used: {totalOutputToken}")
+    print(f"Total files processed: {file_count}/{total_files}")
