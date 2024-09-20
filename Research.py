@@ -20,6 +20,7 @@ nextMetaAction = ""
 numberOfRuns = 3 #Here we specify how many runs we are doing.
 totalInputToken = 0
 totalOutputToken = 0
+fileVariable = 'P04_R01' #Here we specify what folder is being looked at 
 
 def getDataFromJsonFiles(folderPath, fileName):
     global currentAction, currentMetaAction, nextAction, nextMetaAction
@@ -141,14 +142,14 @@ def processGptResponse(fileName, gptResponse, outputJsonPath):
         json.dump(gptResponseDict, f, indent=4)
 
 if __name__ == "__main__":
-    outputFilePath = r'E:\projects\Research\researchOutputP02_R01.txt'
-    gptResponsesJsonPath = r'E:\projects\Research\gptResponsesP02_R01.json'
+    outputFilePath = f'E:\\projects\\Research\\researchOutput{fileVariable}.txt'
+    gptResponsesJsonPath = f'E:\\projects\\Research\\gptResponses{fileVariable}.json'
 
     if not os.path.exists(gptResponsesJsonPath):
         with open(gptResponsesJsonPath, 'w') as f:
             json.dump({}, f)
 
-    folderPath = r'E:\Prepared_Data\P02_R01'
+    folderPath = f'E:\\Prepared_Data\\{fileVariable}'
     
     try:
         with open(gptResponsesJsonPath, 'r') as f:
