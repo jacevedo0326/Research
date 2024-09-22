@@ -20,7 +20,7 @@ nextMetaAction = ""
 numberOfRuns = 3 #Here we specify how many runs we are doing.
 totalInputToken = 0
 totalOutputToken = 0
-fileVariable = 'P04_R01' #Here we specify what folder is being looked at 
+fileVariable = 'P05_R01' #Here we specify what folder is being looked at 
 
 def getDataFromJsonFiles(folderPath, fileName):
     global currentAction, currentMetaAction, nextAction, nextMetaAction
@@ -221,6 +221,12 @@ if __name__ == "__main__":
                 time.sleep(0.5)
                 
                 if run.status == "failed":
+                    failed_count += 1
+                    if failed_count >= max_failed_count:
+                        print(f"Encountered {max_failed_count} consecutive failures. Restarting the script.")
+                        python = sys.executable
+                        os.execl(python, python, *sys.argv)
+                elif run.status == "expired":
                     failed_count += 1
                     if failed_count >= max_failed_count:
                         print(f"Encountered {max_failed_count} consecutive failures. Restarting the script.")

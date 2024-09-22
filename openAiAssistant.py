@@ -104,7 +104,7 @@ if __name__ ==  "__main__":
     )
     print('--------------------------------------New Run---------------------------------')
     print(f" Run created: {run.id}")
-
+    
     # This lets us know whether the run is being completed or not
     while run.status != "completed":
         run = client.beta.threads.runs.retrieve(thread_id = thread.id, run_id=run.id)
