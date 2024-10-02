@@ -20,7 +20,7 @@ nextMetaAction = ""
 numberOfRuns = 3 #Here we specify how many runs we are doing.
 totalInputToken = 0
 totalOutputToken = 0
-fileVariable = 'P08_R01' #Here we specify what folder is being looked at 
+fileVariable = 'P09_R02' #Here we specify what folder is being looked at 
 
 def getDataFromJsonFiles(folderPath, fileName):
     global currentAction, currentMetaAction, nextAction, nextMetaAction

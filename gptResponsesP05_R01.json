@@ -77698,5 +77698,3035 @@
         "Action": "take screwdriver",
         "Correct Meta-Action": "Turn sheets",
         "Correct Action": "Turn sheets"
+    },
+    "3674.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "368.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3684.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3688.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3695.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3700.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3706.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3712.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3717.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3726.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "373.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3737.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3741.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3746.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3758.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "3762.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3768.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "378.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3784.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3789.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3796.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "380.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3809.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3814.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3818.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3821.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "3842.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3846.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3856.json": {
+        "Meta-Action": "Take component",
+        "Action": "Take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3865.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3875.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3880.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3886.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "389.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD"
+    },
+    "3894.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3900.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "3958.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1"
+    },
+    "4119.json": {
+        "Meta-Action": "Take component",
+        "Action": "Take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4123.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4127.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4131.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4138.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4143.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4147.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4156.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4160.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4165.json": {
+        "Meta-Action": "reaching for an object",
+        "Action": "reaching out with the right hand",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4170.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4177.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4188.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4194.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4201.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4209.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4217.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4223.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4230.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "4295.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4299.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4304.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4308.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4318.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4322.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4383.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4394.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4399.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4403.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4416.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4423.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4428.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4433.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4438.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4445.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4449.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4455.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4460.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4470.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4475.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4480.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4484.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4490.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4496.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "454.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "4577.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4582.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4589.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4594.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4599.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4607.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "4614.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "462.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "4623.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take measuring rod",
+        "Correct Action": "Take measuring rod"
+    },
+    "463.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "4644.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4652.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4664.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4677.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4680.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4684.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4690.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place FIXA1 on LARD at 160mm"
+    },
+    "4696.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4702.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4708.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4713.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4719.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4729.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4732.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4760.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4767.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4771.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4778.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4783.json": {
+        "Meta-Action": "catch component",
+        "Action": "take component",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4795.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4803.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4810.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4816.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4822.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "483.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "4837.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4842.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4847.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4850.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4854.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "4859.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "487.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "4884.json": {
+        "Meta-Action": "reaching out",
+        "Action": "reaching for an object",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4920.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4927.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4931.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4936.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4944.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4949.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4954.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Screw FIXA1 with B820"
+    },
+    "4963.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "4970.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "4975.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "4985.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "4990.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5001.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5007.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5018.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5026.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "503.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "5034.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "504.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "5044.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5051.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5058.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5064.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5085.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5090.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5097.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5100.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5105.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5110.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "512.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXA1"
+    },
+    "5126.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5133.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5139.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5144.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5150.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5158.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5167.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5174.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "5182.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "5186.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "5190.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "5200.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "5223.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "523.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5234.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down measuring rod",
+        "Correct Action": "Put down measuring rod"
+    },
+    "524.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5246.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5250.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5255.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5263.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5267.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "528.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5288.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5291.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5296.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5304.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "5312.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "535.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "542.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5428.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5432.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5437.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5446.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5453.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5457.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5465.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5469.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5475.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5483.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5488.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5497.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5505.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5515.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5523.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5529.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5537.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5557.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5562.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5568.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Pillow block bearing PAL4019 (x2)"
+    },
+    "5582.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5588.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5622.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5630.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5647.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5660.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5666.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5676.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5687.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5699.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5729.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5733.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "574.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5748.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5753.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5757.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "577.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5775.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "578.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5790.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5795.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B840 (x2)"
+    },
+    "5805.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B840 (x2)"
+    },
+    "5812.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B840 (x2)"
+    },
+    "586.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "587.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5877.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5883.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5890.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5895.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5899.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5903.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5914.json": {
+        "Meta-Action": "take components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5922.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5926.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5930.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5934.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5938.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5946.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5950.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "596.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "5965.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXT (x2)"
+    },
+    "5972.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXT (x2)"
+    },
+    "5980.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Fixation FIXT (x2)"
+    },
+    "5989.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "603.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "609.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "615.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6214.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6224.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6228.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6236.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6263.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6267.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6270.json": {
+        "Meta-Action": "catch component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6276.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6282.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6288.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6296.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6304.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6321.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Fixture key LARD (x2)"
+    },
+    "6337.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6343.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6349.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6354.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6358.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6363.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6378.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6386.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6390.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6400.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6405.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6412.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6417.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6421.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6425.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6429.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6434.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6451.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking in front",
+        "Correct Action": "Catch Cover CAPO (x2)"
+    },
+    "6469.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6474.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6485.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6490.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6501.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6505.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "651.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6517.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6522.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6537.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6541.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "655.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "658.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down component",
+        "Correct Action": "Put down component"
+    },
+    "6686.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6699.json": {
+        "Meta-Action": "catch component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6710.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6717.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6725.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6732.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6736.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6742.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6748.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6754.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6760.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place LARD on P360-1 (x2)"
+    },
+    "6865.json": {
+        "Meta-Action": "catch component",
+        "Action": "take component",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6872.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6881.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6886.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6891.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6898.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6908.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6927.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6933.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6941.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6953.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6959.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "6974.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "699.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "708.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "714.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "7184.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "7198.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "7217.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "7223.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "723.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "7268.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place PAL4019 on FIXT (x2)"
+    },
+    "7325.json": {
+        "Meta-Action": "take components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place PAL4019 on FIXT (x2)"
+    },
+    "737.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "742.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Picking left",
+        "Correct Action": "Catch Bolt B820"
+    },
+    "7901.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "7906.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "7927.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "7942.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "7947.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "8010.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take screwdriver",
+        "Correct Action": "Take screwdriver"
+    },
+    "8100.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8106.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8108.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8111.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8114.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8116.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8124.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8127.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8129.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8133.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8135.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8137.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8139.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8141.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8144.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8147.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8149.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8151.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8153.json": {
+        "Meta-Action": "take screwdriver",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8155.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8158.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8160.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8162.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8165.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8167.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8172.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8175.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8177.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8179.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8182.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8184.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8186.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8188.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8190.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8194.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8197.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8200.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8202.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8205.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8208.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8210.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8213.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8216.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8218.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8220.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8223.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8226.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8229.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8233.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8235.json": {
+        "Meta-Action": "take component",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8238.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8242.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8244.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8247.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8252.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8255.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8257.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8259.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8261.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8263.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8266.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8269.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8271.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8273.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8275.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8279.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8281.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8284.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8287.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8289.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8291.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8294.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8297.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8299.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8303.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8305.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8307.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8309.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8311.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8313.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8315.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8318.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8320.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8322.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "8325.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8330.json": {
+        "Meta-Action": "preparing to move",
+        "Action": "standing up",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8332.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8334.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8336.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8338.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8340.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8344.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "8456.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "9176.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9180.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9193.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9197.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9202.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9212.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9219.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9224.json": {
+        "Meta-Action": "reaching out",
+        "Action": "grabbing an object",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9233.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9250.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9270.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9275.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9283.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9289.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9301.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9311.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9321.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9335.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9348.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9360.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9369.json": {
+        "Meta-Action": "Take component",
+        "Action": "Take screwdriver",
+        "Correct Meta-Action": "Put down screwdriver",
+        "Correct Action": "Put down screwdriver"
+    },
+    "9373.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "9392.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "9425.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Take component",
+        "Correct Action": "Catch component"
+    },
+    "9434.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "9462.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "9473.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "9475.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Consult sheets",
+        "Correct Action": "Consult sheets"
+    },
+    "9668.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9716.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9720.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9725.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9732.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9737.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9741.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Assemble system",
+        "Correct Action": "Place CAPO on P360-1(x2)"
+    },
+    "9838.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9849.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9854.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9862.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9875.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9884.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9891.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9893.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9895.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9897.json": {
+        "Meta-Action": "taking components",
+        "Action": "take measuring rod",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9899.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9901.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9903.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9906.json": {
+        "Meta-Action": "take component",
+        "Action": "picking in front",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9909.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9911.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9913.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9915.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9917.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9920.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9923.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9925.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9927.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9929.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9934.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9936.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9938.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9940.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9943.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9945.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9948.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9951.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9955.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9957.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9959.json": {
+        "Meta-Action": "taking components",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9961.json": {
+        "Meta-Action": "taking components",
+        "Action": "take component",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9963.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9966.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9972.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
+    },
+    "9975.json": {
+        "Meta-Action": "take component",
+        "Action": "take screwdriver",
+        "Correct Meta-Action": "Put down subsystem",
+        "Correct Action": "Put down Profile P360-1"
     }
 }
