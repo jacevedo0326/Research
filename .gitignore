@@ -2,3 +2,5 @@ openAIKey.py
 ThisIsInSSD.txt
 RealResearchOg.py
 OpenAiAssistantOg.py
+*pycache*
+*.pyc
