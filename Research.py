@@ -6,6 +6,7 @@ from openAiAssistant import assistant, messageFile, client
 import time
 import re
 import sys
+import argparse
 
 # Any global variables we have to initialize and use for later
 listOfBodyParts3D = ['hips', 'RightUpLeg', 'RightLeg', 'RightFoot', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 
@@ -20,7 +21,7 @@ nextMetaAction = ""
 numberOfRuns = 3 #Here we specify how many runs we are doing.
 totalInputToken = 0
 totalOutputToken = 0
-fileVariable = 'P14_R02' #Here we specify what folder is being looked at 
+# fileVariable = 'P14_R02' #Here we specify what folder is being looked at 
 
 def getDataFromJsonFiles(folderPath, fileName): 
     global currentAction, currentMetaAction, nextAction, nextMetaAction
@@ -142,14 +143,22 @@ def processGptResponse(fileName, gptResponse, outputJsonPath):
         json.dump(gptResponseDict, f, indent=4)
 
 if __name__ == "__main__":
-    outputFilePath = f'E:\\projects\\Research\\researchOutput{fileVariable}.txt'
-    gptResponsesJsonPath = f'E:\\projects\\Research\\gptResponses{fileVariable}.json'
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-gpt_path', type=str, help="Path to the folder which contains gpt responses")
+    parser.add_argument('-output_path', type=str, help="Path to the folder to write the outputs")
+    parser.add_argument('-file_name', type=str, help="Inhard sample to use")
+    parser.add_argument('-prepared_data_path', type=str, help="Path to prepared data folder")
+    args = parser.parse_args()
+    fileVariable = args.file_name
+
+    outputFilePath = os.path.join(args.output_path, 'researchOutput'+args.file_name+'.txt') # 'E:\\projects\\Research\\outputs\\researchOutput{fileVariable}.txt'
+    gptResponsesJsonPath = os.path.join(args.gpt_path, 'gptResponses'+args.file_name+'.json') # f'E:\\projects\\Research\\proccessedOutputs\\gptResponses{fileVariable}.json'
 
     if not os.path.exists(gptResponsesJsonPath):
         with open(gptResponsesJsonPath, 'w') as f:
             json.dump({}, f)
 
-    folderPath = f'E:\\Prepared_Data\\{fileVariable}'
+    folderPath = os.path.join(args.prepared_data_path, args.file_name)  # f'E:\\Prepared_Data\\{fileVariable}'
     
     try:
         with open(gptResponsesJsonPath, 'r') as f:
